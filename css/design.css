@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+body {
+    background-color: #CDDAEA;
+    text-align: center;
+}
+
+p {
+    font-family: Didact Gothic;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: Paytone One;
+    color: #121f4d;
+}
+
+h2 {
+    font-family: Paytone One;
+    color: #121f4d;
+}
+
+h3 {
+    color: #121f4d;
+}
+
+/*Tweaks made by Shae Strong Beginning*/
+
+#btn {
+    font-family: Didact Gothic;
+    background-color: #CDDAEA;
+    border: 2px solid #061242;
+    color: #061242;
+    padding: 8px 92px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 22px;
+}
+
+#link {
+    font-family: Didact Gothic;
+    border: 2px solid #061242;
+    color: #061242;
+    padding: 8px 80px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 22px;
+}
+
+/*Tweaks made by Shae Strong End*/
+
+/* Details */
+
+/* visited link */
+#link:visited,
+#btn:visited {
+    color: #061242;
+}
+
+/* mouse over link */
+#link:hover,
+#btn:hover {
+    color: white;
+    background-color: #061242;
+}
+
+/* selected link */
+#link:active,
+#btn:active {
+    color: white;
+    background-color: #061242;
+}
+
+.animate__animated.animate__fadeInDown {
+    --animate-duration: 2s;
+}
